@@ -1,7 +1,14 @@
 Thsi repository contains dataset used in [Detecting and Explaining Causes From Text For a Time Series Event](https://arxiv.org/abs/1707.08852), EMNLP'17. Please contact Dongyeop Kang (dongyeok@cs.cmu.edu) if you have any questions.
 
+### How-to-download
+```
+./download_extract.sh
+```
+This script will automatically download all datasets and extract each zipped file into separate directories.
+
+
 ## Dataset
-Please extract the zipped files for each feature. The format is [Date] \t [Count/Probability]:
+The format is [Date] \t [Count/Probability]:
 - sentis: sentiment (positive/negatie) time series for each company and politician
 - topics: topic time series for each company and politician
 - topics.sentis: sentiment of each topic time series for each company and politician
