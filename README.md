@@ -15,6 +15,10 @@ The format is [Date] \t [Count/Probability]:
 - unigram: uni-gram time series (12,804 words), uni.filtered.events contains temporal dynamics of each word
 - bigram: bi-gram time series (25,909 words), uni.filtered.events contains temporal dynamics of each word
 
+For better replication, we additionaly share following data:
+- Stock prices used in the experiment are udpated under ./stock_price.
+- 10K tweet IDs per each day are also shared under ./tweet_ids_10k_per_day.
+
 
 ## Reference
 If you think this dataset is useful for your research, please consider citing this paper.
