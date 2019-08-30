@@ -1,5 +1,9 @@
 Thsi repository contains dataset used in [Detecting and Explaining Causes From Text For a Time Series Event](https://arxiv.org/abs/1707.08852), EMNLP'17. Please contact Dongyeop Kang (dongyeok@cs.cmu.edu) if you have any questions.
 
+![](cgraph.png)
+
+
+
 ### How-to-download
 ```
 ./download_extract.sh
